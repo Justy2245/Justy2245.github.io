@@ -3,7 +3,7 @@
 <html>
 
 <head>	
-	<title>CS351_Justin Takayoshi_Projects_Page</title>
+	<title>Justin Takayoshi_Projects_Page</title>
 	<link rel="stylesheet" href="Styles/style.css">
 
 </head>
@@ -14,69 +14,53 @@
 	   <a href="CV.html">CV Page</a>
 	   <a href="Projects.html">Projects</a>
 	</div>
+
 	<div class="header">
   	   <h1>Projects</h1>
 	</div>
-	<div class="bodyformat">
-	<button class="dropdown">Android App</button>
-	<div class="container">
-	<p>For a class assignment, I created an app for Android devices that would document "crimes". You would be able to create a report that you would be able to 
-	add a name for the report as well as take a photo that would be saved in the report. You would access these reports through a scrollable list after they were 
-	created. You could also choose the time and date that the report was created through a calender that would pop up through the use of datepicker. You could 
-	also choose a "suspect" from your contact list and you would also be able to send the
-	report to other apps, such as gmail or google drive. I also made it so that you could also edit the report whenever you wanted and made it so that you could 
-	check off a report as being solved, which would reflect on the list where you can see all the reports. 
-	To save the data, I used a SQL database, so that the reports created could still be accessed later if the app was closed. I also made it so that you would be 
-	able to modify reports whenever needed. I used an 
-	older API, so that the app would be compatible on more devices and the API I used was API 21.</p>
-	<img src="Images/AndroidApp.jpg" alt="AndroidApp" style="width:380px;height:650px;">
-	<img src="Images/AndroidApp2.jpg" alt="AndroidApp2" style="width:380px;height:650px;">
-	</div>
+	<div class="projectbody">
+		<button class="dropdown">Android App</button>
+		<div class="container">
+			<p>For a class assignment, I created an app for Android devices that would document "crimes". You would be able to create a report that you would be able to 
+			add a name for the report as well as take a photo that would be saved in the report. You would access these reports through a scrollable list after they were 
+			created. You could also choose the time and date that the report was created through a calender that would pop up through the use of datepicker. You could 
+			also choose a "suspect" from your contact list and you would also be able to send the
+			report to other apps, such as gmail or google drive. I also made it so that you could also edit the report whenever you wanted and made it so that you could 
+			check off a report as being solved, which would reflect on the list where you can see all the reports. 
+			To save the data, I used a SQL database, so that the reports created could still be accessed later if the app was closed. I also made it so that you would be 
+			able to modify reports whenever needed. I used an 
+			older API, so that the app would be compatible on more devices and the API I used was API 21.
+			</p>
+			<img src="Images/AndroidApp.jpg" alt="AndroidApp" style="width:380px;height:650px;">
+			<img src="Images/AndroidApp2.jpg" alt="AndroidApp2" style="width:380px;height:650px;">
+		</div>
 
-	<button class="dropdown">Hash Table</button>
-	<div class="container">
-	<p>For a class assignment, I created a Hash Table program in C++ that would recieve a word list with about 200000 words that would need to be put into the table.
-	The hashing function that I used was that I would first take the string of the text and turn it into ascii and subtract that number by 97. I would then
-	convert that resulting number, which would be in the range 0-25, into a prime number that I had in an array. For example the letter b would convert
-	to the prime number 3, and the letter f would turn into 13. Once all the letters of the string were converted I would multiply them all together to get a
-	unique number that would then be modded with the size of the table to know what index to put it at. Also as part of the project I created a menu that would
-	be able to search, insert, and delete words that were in the table. The table it self was a linked list that held linked lists within it and the size of it
-	would be determined manually when running the program. When searching for words the time it took to find it would also be displayed. </p>
-	<img src="Images/Output_1.jpg" alt="Output_1" style="width:1280px;height:687px;">
-	</div>
+		<button class="dropdown">Hash Table</button>
+		<div class="container">
+			<p>For a class assignment, I created a Hash Table program in C++ that would recieve a word list with about 200000 words that would need to be put into the table.
+			The hashing function that I used was that I would first take the string of the text and turn it into ascii and subtract that number by 97. I would then
+			convert that resulting number, which would be in the range 0-25, into a prime number that I had in an array. For example the letter b would convert
+			to the prime number 3, and the letter f would turn into 13. Once all the letters of the string were converted I would multiply them all together to get a
+			unique number that would then be modded with the size of the table to know what index to put it at. Also as part of the project I created a menu that would
+			be able to search, insert, and delete words that were in the table. The table it self was a linked list that held linked lists within it and the size of it
+			would be determined manually when running the program. When searching for words the time it took to find it would also be displayed. 
+			</p>
+			<img src="Images/Output_1.jpg" alt="Output_1" style="width:1280px;height:687px;">
+		</div>
 
-	<button class="dropdown">DVD Manager Program</button>
-	<div class="container">
-	<p>I created this program to learn about how to use Java Swing. The program starts by loading a file that you choose and would use swing to create the GUI.
-	The program is capable of displaying all the DVDs stored in the file in a list format, which would be the name, rating and run time of the DVD. When the DVDs 
-	are displayed, you are able to add or remove DVDs from the list. The file would be overwritten if the program made changes to the list that was initially
-	loaded. The program was relatively simple in function, but it helped me learn how to create a GUI with lists, buttons, and how to integrate it with normal
-	code.</p>
-	<img src="Images/DVDGUI2.jpg" alt="DVDGUI2" style="width:188px;height:192px;">
-	<img src="Images/DVDGUI1.jpg" alt="DVDGUI1" style="width:508px;height:90px;">
+		<button class="dropdown">DVD Manager Program</button>
+		<div class="container">
+			<p>I created this program to learn about how to use Java Swing. The program starts by laoding a file that you choose and would use swing to create the GUI.
+			The program is capable of displaying all the DVDs stored in the file in a list format, which would be the name, rating and run time of the DVD. When the DVDs 
+			are displayed, you are able to add or remove DVDs from the list. The file would be overwritten if the program made changes to the list that was initially
+			loaded. The program was relatively simple in function, but it helped me learn how to create a GUI with lists, buttons, and how to integrate it with normal
+			code.
+			</p>
+			<img src="Images/DVDGUI2.jpg" alt="DVDGUI2" style="width:188px;height:192px;">
+			<img src="Images/DVDGUI1.jpg" alt="DVDGUI1" style="width:508px;height:90px;">
+		</div>
 	</div>
-	</div>
+</body>
+<script src="Scripts/scripts.js"></script>
 
-<script>
-	var drop = document.getElementsByClassName("dropdown");
-	var i;
-
-	for (i = 0; i < drop.length; i++) 
-	{
-		drop[i].addEventListener("click", function() 
-		{
-			this.classList.toggle("active");
-			var panel = this.nextElementSibling;
-			if (panel.style.display === "block") 
-			{
-	 			panel.style.display = "none";
-	    		} 
-			else 
-			{
-				panel.style.display = "block";
-			} 
-		})
-	}
-</script>
-	</body>
 </html>
